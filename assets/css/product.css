@@ -1,0 +1,95 @@
+/*-------SECTION 1-------*/
+.product-heading {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.p-container {
+   margin: 20px;
+}
+
+.p-container h1 {
+   font-size: 30px;
+   font-weight: bold;
+   color: #121212;
+}
+
+/*-------SECTION 2-------*/
+.product-detail {
+   width: 100%;
+   height: 700px;
+}
+
+.pd-container {
+   margin: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   gap: 50px;
+}
+
+.pd-img {
+   width: 50%;
+}
+
+.pd-img img {
+   border-radius: 15px;
+   box-shadow: 0 0 10px rgba(50, 50, 50, 0.1);
+}
+
+.pd-body {
+   width: 50%;
+}
+
+.pd-title {
+   font-size: 25px;
+   font-weight: 500;
+   color: #121212;
+}
+
+.pd-price {
+   margin-top: 10px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.pd-about {
+   margin-top: 10px;
+   color: #121212;
+}
+
+.pd-about h4 {
+   font-size: 20px;
+   font-weight: 500;
+   color: #121212;
+}
+
+.pd-about ul {
+   padding-left: 40px;
+}
+
+.buttons {
+   margin-top: 20px;
+   display: flex;
+   gap: 2px;
+}
+
+.buy-now {
+   width: 50%;
+   border: none;
+   background-color: #ffa41c;
+   color: #fff;
+   padding: 8px;
+   border-radius: 10px;
+}
+
+.add-to-cart {
+   width: 50%;
+   border: 2px solid #ffa41c;
+   background-color: transparent;
+   color: #ffa41c;
+   padding: 8px;
+   border-radius: 10px;
+}
